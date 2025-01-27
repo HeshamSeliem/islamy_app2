@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islamy_app/home/buttom_nav.dart';
-import 'package:islamy_app/home/tabs/ahadeth_tab.dart';
+import 'package:islamy_app/home/tabs/ahadeth_tab/ahadeth_tab.dart';
 import 'package:islamy_app/home/tabs/azkar_tab.dart';
 import 'package:islamy_app/home/tabs/quran_tab/quran_tab.dart';
 import 'package:islamy_app/home/tabs/radio_tab.dart';
@@ -33,14 +33,19 @@ class _HomeScreenState extends State<HomeScreen> {
           
         });
         },),
-        body: tabs[currentIndex],
+        body: Column(
+          children: [
+            Image.asset("assets/images/titlewidget.png",),
+            Expanded(child: tabs[currentIndex])
+          ],
+        ),
        
              ),
     );
   }
   List<Widget> tabs =[
      QuranTab(),
-    const AhadethTab(),
+     AhadethTab(),
      SebhaTab(),
     const RadioTab(),
     const AzkarTab()

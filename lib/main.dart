@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islamy_app/cache/cache_helper.dart';
 import 'package:islamy_app/home/home_screen.dart';
+import 'package:islamy_app/home/tabs/ahadeth_tab/hadeth_details.dart';
 import 'package:islamy_app/my_theme_data.dart';
 import 'package:islamy_app/onbording_screen.dart';
 import 'package:islamy_app/suraDetails/sura_details.dart';
@@ -29,6 +30,7 @@ class MyApp extends StatelessWidget {
       OnBordingScreen.routeName : (context) =>  OnBordingScreen(),
       HomeScreen.routeName : (context) =>   HomeScreen(),
        SuraDetailsScreen.routeName : (context) =>const SuraDetailsScreen(),
+       HadethDetails.routeName : (context) =>const HadethDetails(),
 
      }, );
   }

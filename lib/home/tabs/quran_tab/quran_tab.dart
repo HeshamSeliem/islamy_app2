@@ -50,9 +50,11 @@ class _QuranTabState extends State<QuranTab> {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [ 
-         Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [ Image.asset("assets/images/titlewidget.png",) ]),
+        //  Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   children: [ 
+        //     Image.asset("assets/images/titlewidget.png",)
+        //      ]),
            _searchItem(),
           const SizedBox(height: 20,),
            _horisentalSuraName(),

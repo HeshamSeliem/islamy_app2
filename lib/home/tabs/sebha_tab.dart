@@ -20,8 +20,8 @@ class SebhaTab extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-             Image.asset("assets/images/titlewidget.png"),
-            const SizedBox(height: 16,),
+            //  Image.asset("assets/images/titlewidget.png"),
+            // const SizedBox(height: 16,),
              Text("سَبِّحِ اسْمَ رَبِّكَ الأعلى",
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(color: Colors.white,fontSize: 30)
                  ),

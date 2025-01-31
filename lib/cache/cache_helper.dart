@@ -9,7 +9,7 @@ class CashHelper {
    }
     /// function to save the change in memory
   static Future <bool> saveEligipility () async{
-      final result = await prefs.setBool('onboarding', true);
+      final result = await prefs.setBool('onboarding', false);
       return result;
    }
   /// check if this function happend or not

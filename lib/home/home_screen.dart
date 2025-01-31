@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islamy_app/home/buttom_nav.dart';
 import 'package:islamy_app/home/tabs/ahadeth_tab/ahadeth_tab.dart';
-import 'package:islamy_app/home/tabs/azkar_tab.dart';
+import 'package:islamy_app/home/tabs/azkar_tab/azkar_tab.dart';
 import 'package:islamy_app/home/tabs/quran_tab/quran_tab.dart';
 import 'package:islamy_app/home/tabs/radio_tab/radio_tab.dart';
 import 'package:islamy_app/home/tabs/sebha_tab.dart';
